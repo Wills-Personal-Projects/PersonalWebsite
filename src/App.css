@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
+  background-color:rgb(103, 162, 170);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-Row {
+  background-color:rgb(103, 162, 170);
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-Proj-Row {
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-Info-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+ 
+}
+
+.info-card{
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App-Title-Row{
+  background-color:rgb(103, 162, 170);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.App-Rows{
+  background-color:rgb(103, 162, 170);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.App-Col {
+  background-color:rgb(103, 162, 170);
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-Image{
+  border: 3px solid black;
+  border-radius: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-pad{
+  padding-top: 30px;
+}
+
+.top-pad-more{
+  padding-top: 60px;
+}
+
+.top-pad-more-more{
+  padding-top: 240px;
+}
+
+.btm-pad{
+  padding-bottom: 30px;
+}
+
+.left-pad-less{
+  padding-left: 25px;
+}
+
+.left-pad{
+  padding-left: 30px;
+}
+
+.left-pad-more{
+  padding-left: 100px;
+}
+
+.right-pad{
+  padding-right: 30px;
+}
+
+.right-pad-more{
+  padding-right: 250px;
+}
+
+.proj-card{
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.link{
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info-link{
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 2%;
+}
+
+.navbar{
+  background-color:rgb(103, 162, 170);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
