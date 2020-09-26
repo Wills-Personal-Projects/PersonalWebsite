@@ -1,11 +1,11 @@
 import React from 'react';
 
 import './App.css';
-import education from './images/education.jpg';
-import firstExperience from './images/experience_1.jpg';
-import secondExperience from './images/experience_2.jpg';
-import skills from './images/skills.jpg';
-import relevantCourses from './images/relevant_coursework.jpg';
+import education from './images/my_education.JPG';
+import firstExperience from './images/my_experience_1.JPG';
+import secondExperience from './images/my_experience_2.JPG';
+import skills from './images/my_skills.JPG';
+import relevantCourses from './images/my_coursework.JPG';
 
 
 function Resume() {

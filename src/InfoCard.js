@@ -1,5 +1,4 @@
 import React from 'react';
-import myInfo from './images/my_info.jpg';
 
 function InfoCard(){
     return (
@@ -16,7 +15,7 @@ function InfoCard(){
                 </h4>
               </div>
               <div className="App-Info-Row">
-                <a href="www.linkedin.com/in/williamjayjett">
+                <a href="https://www.linkedin.com/in/williamjayjett">
                     <h4>
                         linkedin
                     </h4>

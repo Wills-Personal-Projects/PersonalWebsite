@@ -13,16 +13,16 @@ function NavBar(){
             </div>
             <div className="proj-card">
             <div className="App-Proj-Row">
-                <Project name='Web Service' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandWebService'} />
-            </div>
-            <div className="App-Proj-Row">
-                <Project name='Web Client' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandClientApp'} />
-            </div>
-            <div className="App-Proj-Row">
                 <Project name='Nomadic Camping App' githubUrl={'https://nomadic1995.firebaseapp.com'} />
             </div>
             <div className="App-Proj-Row">
-                <Project name='This Website' githubUrl={'https://github.com/Wills-Personal-Projects/PersonalWebsite'} />
+                <Project name='Web Service Github' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandWebService'} />
+            </div>
+            <div className="App-Proj-Row">
+                <Project name='Web Client Github' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandClientApp'} />
+            </div>
+            <div className="App-Proj-Row">
+                <Project name='This Website Github' githubUrl={'https://github.com/Wills-Personal-Projects/PersonalWebsite'} />
             </div>
             </div>
         </div>
