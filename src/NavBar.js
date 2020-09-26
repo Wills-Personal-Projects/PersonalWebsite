@@ -16,10 +16,9 @@ function NavBar(){
                 <Project name='Nomadic Camping App' githubUrl={'https://nomadic1995.firebaseapp.com'} />
             </div>
             <div className="App-Proj-Row">
-                <Project name='Web Service Github' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandWebService'} />
-            </div>
+                <Project name='Campsite Service Github' githubUrl={'https://github.com/Wills-Personal-Projects/campsiteService'} />
             <div className="App-Proj-Row">
-                <Project name='Web Client Github' githubUrl={'https://github.com/Wills-Personal-Projects/SupplyDemandClientApp'} />
+                <Project name='Nomadic App Github' githubUrl={'https://github.com/Wills-Personal-Projects/NomadicReactApp'} />
             </div>
             <div className="App-Proj-Row">
                 <Project name='This Website Github' githubUrl={'https://github.com/Wills-Personal-Projects/PersonalWebsite'} />
