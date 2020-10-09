@@ -6,7 +6,6 @@
   background-color:rgb(103, 162, 170);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .App-Proj-Row {
@@ -42,11 +41,12 @@
   background-color:rgb(103, 162, 170);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .App-Col {
   background-color:rgb(103, 162, 170);
+  display: flex;
   flex-direction: column;
 }
 
@@ -75,8 +75,8 @@
   padding-left: 25px;
 }
 
-.left-pad{
-  padding-left: 30px;
+.left-pad-100{
+  padding-left: 100px;
 }
 
 .left-pad-more{
