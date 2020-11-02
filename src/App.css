@@ -1,121 +1,17 @@
-.App {
-  background-color:rgb(103, 162, 170);
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 125px;
+    padding: 10px;
 }
 
-.App-Row {
-  background-color:rgb(103, 162, 170);
-  display: flex;
-  flex-direction: row;
+.projects-title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 75px;
+    padding: 10px;
 }
 
-.App-Proj-Row {
-  background-color:white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.App-Info-Row {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
- 
-}
-
-.info-card{
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 2%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.App-Title-Row{
-  background-color:rgb(103, 162, 170);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.App-Rows{
-  background-color:rgb(103, 162, 170);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.App-Col {
-  background-color:rgb(103, 162, 170);
-  display: flex;
-  flex-direction: column;
-}
-
-.App-Image{
-  border: 3px solid black;
-  border-radius: 5px;
-}
-
-.top-pad{
-  padding-top: 30px;
-}
-
-.top-pad-more{
-  padding-top: 60px;
-}
-
-.top-pad-more-more{
-  padding-top: 240px;
-}
-
-.btm-pad{
-  padding-bottom: 30px;
-}
-
-.left-pad-less{
-  padding-left: 25px;
-}
-
-.left-pad-100{
-  padding-left: 100px;
-}
-
-.left-pad-more{
-  padding-left: 100px;
-}
-
-.right-pad{
-  padding-right: 30px;
-}
-
-.right-pad-more{
-  padding-right: 250px;
-}
-
-.proj-card{
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 2%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.link{
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 2%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.info-link{
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 2%;
-}
-
-.navbar{
-  background-color:rgb(103, 162, 170);
-  display: flex;
-  flex: 1;
-  flex-direction: column;
+.app{
+    background-color: teal;
+    height: 100vh;
 }
