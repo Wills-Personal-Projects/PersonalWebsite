@@ -7,7 +7,7 @@ function CardList(props) {
         return (
             <List bulleted>
                 {
-                    props.items.map(item => (<List.Item key={item}>{item}<SubListItem subItems={props.subLists[item]}/></List.Item>))
+                    props.items.map(item => (<List.Item style={{fontSize: '15px'}} key={item}>{item}<SubListItem subItems={props.subLists[item]}/></List.Item>))
                 }
             </List>
         );
@@ -15,7 +15,7 @@ function CardList(props) {
         return (
             <List bulleted>
                 {
-                    props.items.map(item => (<List.Item key={item}>{item}</List.Item>))
+                    props.items.map(item => (<List.Item style={{fontSize: '15px'}} key={item}>{item}</List.Item>))
                 }
             </List>
         );

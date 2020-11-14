@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import {Container, Grid} from 'semantic-ui-react';
-import Title from './Title';
+import TitleContext from './TitleContext';
 import Resume from './Resume';
 import ProjectNavBar from './ProjectNavBar';
 
@@ -12,7 +12,7 @@ function App() {
         <Grid centered>
           <Grid.Row>
             <Grid.Column width={16}>
-              <Title/>
+              <TitleContext/>
             </Grid.Column>
           </Grid.Row> 
           <Grid.Row>

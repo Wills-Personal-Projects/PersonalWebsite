@@ -7,12 +7,12 @@ export default class ProjectNavBar extends Component {
   render() {
     return (
         <Card
+            header={'Projects'}
             description={
                 (<Grid columns={1} padded>
                     <Grid.Row>
                         <Grid.Column>
-                            <Header className='projects-title' as='h1'>Projects</Header>  
-                            <Menu fluid vertical>
+                            <Menu style={{backgroundColor: 'lightgrey'}} fluid vertical>
                                 <Menu.Item>
                                     <Project name='Nomadic Camping App' githubUrl={'https://nomadic1995.firebaseapp.com'} />
                                 </Menu.Item>
