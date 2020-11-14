@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-.title{
+
+.ui.header.title{
     font-family: 'Permanent Marker', cursive;
     font-size: 125px;
-    padding: 10px;
 }
 
-.projects-title{
+.ui.header.projects-title{
     font-family: 'Permanent Marker', cursive;
-    font-size: 75px;
-    padding: 10px;
+    font-size: 30px;
 }
 
-.app{
-    background-color: teal;
-    height: 100vh;
+.ui.header.title-i{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 125px;
+    padding-left: 40px;
+}
+
+.ui.header.title-t{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 125px;
+    padding-left: 15px;
+}
+
+.ui.header.title-e{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 125px;
+    padding-left: 5px;
 }
