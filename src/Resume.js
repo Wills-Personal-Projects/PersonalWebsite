@@ -5,7 +5,7 @@ import CardList from './CardList';
 
 function Resume(){
     return (
-       <Grid columns={2} padded>
+       <Grid columns={2}>
             <Grid.Row>
             <Grid.Column width={8}>
                     <Card.Group centered>

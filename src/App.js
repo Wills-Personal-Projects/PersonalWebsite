@@ -9,7 +9,7 @@ import ProjectNavBar from './ProjectNavBar';
 function App() {
   return (
       <Container fluid>
-        <Grid centered>
+        <Grid centered style={{paddingLeft: '30px', paddingRight: '30px'}}>
           <Grid.Row>
             <Grid.Column width={16}>
               <TitleContext/>
