@@ -9,27 +9,10 @@ function Resume(){
             <Grid.Row>
             <Grid.Column width={8}>
                     <Card.Group centered>
-    
-                        <Card
-                            fluid
-                            header={'Education'}
-                            description={
-                                [
-                                    <Card 
-                                        fluid
-                                        header={'B.S. Computer Science, ASU'}
-                                        description={(<CardList items={['GPA - 3.01']}/>)}
-                                        meta={['August 2014 - May 2020']}
-                                        style={{backgroundColor: 'lightgrey'}}
-                                    />
-                                ]
-                            }
-                            style={{backgroundColor: 'teal'}}
-                        />
                         
                         <Card 
                             fluid 
-                            header={'Relevant Coursework'}
+                            header={'Professional Experience'}
                             description={
                                 [
                                     (<Card 
@@ -38,36 +21,28 @@ function Resume(){
                                             <CardList 
                                                 subLists={
                                                     {
-                                                        'Theoretical Computer Science':
+                                                        'ASU Capstone Project':
                                                             [
-                                                                'Learned how to design finite state machines that decide and recognize various languages',
-                                                                'Applied given theorems to solve abstract problems related to Turing machines', 
-                                                                'Learned the hierarchy of problem difficulty as well as which state machines can solve them',
-                                                                'Learned about P and NP'
+                                                                'Spent 1 year designing and developing the cloud-based middleware software.',
+                                                                'The purpose of the software is to provide product information to the 3rd party API system and to save information such as purchase records or existing product attributes to SQL databases.', 
+                                                                'Set up and customized e-commerce software product wiki',
+                                                                'Created UML, use case and sequence diagrams which are all documented in the wiki.',
+                                                                'Debugged http endpoints using swagger and postman',
+                                                                'Significantly reduced time required to categorize and post merchandise on Ebay and Etsy.'
                                                             ]
                                                     ,
-                                                        'Distributed Software Development':
+                                                        'Choice Hotels International Internship':
                                                             [
-                                                                'RESTful and SOAP web service development with Microsoft .NET and Visual Studio',
-                                                                'Client-Server architecture',
-                                                                'Concurrency and multithreading'
-                                                            ]
-                                                    ,
-                                                        'Software Design and Analysis':
-                                                            [
-                                                                'Learned how to design software systems such that overall complexity of the system is minimized',
-                                                                'Java Development with IntelliJ', 
-                                                                'Structural and behavioral object oriented modeling',
-                                                                'Software Design Patterns',
-                                                                'Software Architecture'
+                                                                'Spent 3 months assisting software engineers develop a cloud based client-server application',
+                                                                'This application allows hotel managers to submit revenue and employee hours to a central system that redirects the information to appropriate subsystems', 
+                                                                'My code was regularly merged into the main project branch and the functionality that I implemented is still being used'
                                                             ]
                                                     }
                                                 } 
                                                 items={
                                                     [
-                                                        'Theoretical Computer Science',
-                                                        'Software Design and Analysis', 
-                                                        'Distributed Software Development'
+                                                        'ASU Capstone Project',
+                                                        'Choice Hotels International Internship'
                                                     ]
                                                 }
                                             />
@@ -79,28 +54,6 @@ function Resume(){
                             style={{backgroundColor: 'teal'}}
                         />
                         
-                    </Card.Group>
-                </Grid.Column>
-                <Grid.Column width={8}>
-                    <Card.Group centered>
-                        <Card
-                            fluid 
-                            header={'Skills'}
-                            description={
-                                [
-                                    (<Card 
-                                        fluid 
-                                        description={(<CardList items={
-                                        ['I work well in a team, but I can also work effectively on my own', 
-                                        'I enjoy learning new technologies as often as I can',
-                                        'I know how to ask the right questions'
-                                        ]}/>)}
-                                        style={{backgroundColor: 'lightgrey'}}
-                                    />)
-                                ]
-                            }
-                            style={{backgroundColor: 'teal'}}
-                        />
                         <Card
                             fluid 
                             header={'Work Experience'}
@@ -109,37 +62,13 @@ function Resume(){
                                 [
                                     (<Card 
                                         fluid 
-                                        header={'Lively Minds, Highschool Math Tutor'} 
-                                        description={
-                                            (<CardList 
-                                                items={
-                                                    [
-                                                        'Tutoring Highschool students in math subjects such as Algebra, Geometry, and Calculus', 
-                                                        'Accomodating each student by tutoring in a way that best suits them',
-                                                        'Logging important information related to each tutoring session'
-                                                    ]
-                                                }
-                                            />)
-                                        } 
+                                        header={'Lively Minds, Advanced Highschool Math Tutor'} 
                                         meta={'August 2020 - Current'}
                                         style={{backgroundColor: 'lightgrey'}}
                                     />),
                                     (<Card 
                                         fluid 
                                         header={'Choice Hotels Inc., Software Developer Intern'} 
-                                        description ={
-                                            (<CardList 
-                                                items={
-                                                    [
-                                                        'Learned Javascript React and Redux for web client application development', 
-                                                        'Learned Java Spring for server-side web development',
-                                                        'Used Git for version control',
-                                                        'Developed a software mechanism for csv data submission from and end-user to a central system database',
-                                                        'Participated in daily Scrum meetings'
-                                                    ]
-                                                }
-                                            />)
-                                        }
                                         meta={'May 2018 - August 2018'}
                                         style={{backgroundColor: 'lightgrey'}}
 
@@ -147,21 +76,68 @@ function Resume(){
                                     (<Card 
                                         fluid 
                                         header={'Arizona State University, Computer Science Tutor'} 
-                                        description={
-                                            (<CardList 
-                                                items={
-                                                    [
-                                                        'Tutoring university students in computer science topics such as OOP, Data Structures, Algorithms, and Theoretical Computer Science', 
-                                                        'Leading a small team of new tutors by helping them tutor students and refreshing their knowledge by putting on trainings three times a semester'
-                                                    ]
-                                                }
-                                            />)
-                                        } 
                                         meta={'August 2017 - December 2019'}
                                         style={{backgroundColor: 'lightgrey'}}
                                     />)
                             ]
                         }
+                        />
+                    </Card.Group>
+                </Grid.Column>
+                <Grid.Column width={8}>
+                    <Card.Group centered>
+                        <Card
+                            fluid 
+                            header={'Professional Summary'}
+                            description={
+                                [
+                                    (<Card 
+                                        fluid 
+                                        description={(<CardList items={
+                                            ['Multi-talented problem solver with experience in the business enterprise software industry.', 
+                                            'Proficient in Java, HTML, JavaScript, C++, C#, F#, and Linux shell scripting.',
+                                            'Two years of relevant experience in software development and analysis.',
+                                            'Ability to train others in Java programming, desktop application development, algorithm design and analysis, and theoretical computer science.',
+                                            'I am able to gather new information and compile that into a working mental model very quickly.'
+                                            ]}/>)}
+                                        style={{backgroundColor: 'lightgrey'}}
+                                    />)
+                                ]
+                            }
+                            style={{backgroundColor: 'teal'}}
+                        />
+
+                        <Card
+                            fluid
+                            header={'Education'}
+                            description={
+                                [
+                                    <Card 
+                                        fluid
+                                        header={'B.S. Computer Science'}
+                                        description={<CardList items={['Discrete Mathematical Structures','Statistical Analysis', 'Distributed Software Developement', 'Computer Graphics', 'Mobile App Development']}/>}
+                                        meta={['School of Computing, Informatics, and Decision Systems Engineering Arizona State University']}
+                                        style={{backgroundColor: 'lightgrey'}}
+                                    />
+                                ]
+                            }
+                            style={{backgroundColor: 'teal'}}
+                        />
+
+                        <Card
+                            fluid
+                            header={'Hobbies'}
+                            description={
+                                [
+                                    <Card 
+                                        fluid
+                                        description={<CardList items={['3D Sculpture','Custom sticker design and printing']}/>}
+                                        meta={['Links to some of my sculptures and sticker designs are also on this site!']}
+                                        style={{backgroundColor: 'lightgrey'}}
+                                    />
+                                ]
+                            }
+                            style={{backgroundColor: 'teal'}}
                         />
                     </Card.Group>
                 </Grid.Column>
