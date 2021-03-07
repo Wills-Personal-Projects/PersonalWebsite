@@ -16,13 +16,13 @@ export default class ProjectNavBar extends Component {
                                 <Grid.Column>
                                     <Menu style={{backgroundColor: 'lightgrey'}} fluid vertical>
                                         <Menu.Item>
-                                            <Project name='Nomadic Camping App' content={false} githubUrl={'https://nomadic1995.firebaseapp.com'} />
+                                            <Project name='Nomadic Camping App' content={false} githubUrl={'https://nomadic-frontend-1995.web.app/'} />
                                         </Menu.Item>
                                         <Menu.Item>
                                             <Project name='Nomadic Camping App Wiki' content={false}  githubUrl={'https://nomadic-frontend-wiki-1995.web.app'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Nomadic App Github' content={false} githubUrl={'https://github.com/Wills-Personal-Projects/NomadicReactApp'} />
+                                            <Project name='Nomadic App Github' content={false} githubUrl={'https://github.com/Wills-Personal-Projects/Nomadic'} />
                                         </Menu.Item>
                                         <Menu.Item>
                                             <Project name='Nomadic Backend Wiki' content={false} githubUrl={'https://nomadic-backend-wiki-1995.web.app'} />
