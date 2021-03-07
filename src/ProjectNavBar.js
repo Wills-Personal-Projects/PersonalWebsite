@@ -16,25 +16,25 @@ export default class ProjectNavBar extends Component {
                                 <Grid.Column>
                                     <Menu style={{backgroundColor: 'lightgrey'}} fluid vertical>
                                         <Menu.Item>
-                                            <Project name='Nomadic Camping App' githubUrl={'https://nomadic1995.firebaseapp.com'} />
+                                            <Project name='Nomadic Camping App' content={false} githubUrl={'https://nomadic1995.firebaseapp.com'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Nomadic Camping App Wiki' githubUrl={'https://nomadic-frontend-wiki-1995.web.app'} />
+                                            <Project name='Nomadic Camping App Wiki' content={false}  githubUrl={'https://nomadic-frontend-wiki-1995.web.app'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Nomadic App Github' githubUrl={'https://github.com/Wills-Personal-Projects/NomadicReactApp'} />
+                                            <Project name='Nomadic App Github' content={false} githubUrl={'https://github.com/Wills-Personal-Projects/NomadicReactApp'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Nomadic Backend Wiki' githubUrl={'https://nomadic-backend-wiki-1995.web.app'} />
+                                            <Project name='Nomadic Backend Wiki' content={false} githubUrl={'https://nomadic-backend-wiki-1995.web.app'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Campsite Service Github' githubUrl={'https://github.com/Wills-Personal-Projects/campsiteService'} />
+                                            <Project name='Campsite Service Github'content={false} githubUrl={'https://github.com/Wills-Personal-Projects/campsiteService'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='This Website Wiki' githubUrl={'https://my-website-wiki-1995.web.app'} />
+                                            <Project name='This Website Wiki' content={false} githubUrl={'https://my-website-wiki-1995.web.app'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='This Website Github' githubUrl={'https://github.com/Wills-Personal-Projects/PersonalWebsite'} />
+                                            <Project name='This Website Github' content={false} githubUrl={'https://github.com/Wills-Personal-Projects/PersonalWebsite'} />
                                         </Menu.Item>
                                     </Menu>
                                 </Grid.Column>
@@ -51,10 +51,10 @@ export default class ProjectNavBar extends Component {
                                 <Grid.Column>
                                     <Menu style={{backgroundColor: 'lightgrey'}} fluid vertical>
                                         <Menu.Item>
-                                            <Project name='3D Sculptures' githubUrl={'https://google.com'} />
+                                            <Project name='3D Sculptures' content={true} artName={'sculpt'} />
                                         </Menu.Item>
                                         <Menu.Item>
-                                            <Project name='Sticker Designs' githubUrl={'https://google.com'} />
+                                            <Project name='Sticker Designs' content={true} artName={'sticker'} />
                                         </Menu.Item>
                                     </Menu>
                                 </Grid.Column>
