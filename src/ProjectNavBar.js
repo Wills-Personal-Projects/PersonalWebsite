@@ -44,7 +44,7 @@ export default class ProjectNavBar extends Component {
                     style={{backgroundColor:'teal'}}
                 />
                 <Card
-                    header={'Sculptures and Stickers'}
+                    header={'Art'}
                     description={
                         (<Grid columns={1} padded>
                             <Grid.Row>
@@ -55,6 +55,9 @@ export default class ProjectNavBar extends Component {
                                         </Menu.Item>
                                         <Menu.Item>
                                             <Project name='Sticker Designs' content={true} artName={'sticker'} />
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            <Project name='Pencil Drawings' content={true} artName={'drawing'} />
                                         </Menu.Item>
                                     </Menu>
                                 </Grid.Column>
